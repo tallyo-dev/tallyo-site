@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{% if page.title %}{{ page.title }} | {% endif %}Tallyo — Chores &amp; Rewards for Kids</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}Tallyo" />
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="og:image" content="https://tallyo.net/assets/icon.png" />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="/assets/icon.png" type="image/png" />
+  <link rel="stylesheet" href="/assets/landing.css" />
+</head>
+<body>
+  {% include nav.html %}
+  {{ content }}
+  {% include footer.html %}
+</body>
+</html>

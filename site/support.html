@@ -1,0 +1,78 @@
+---
+layout: landing
+title: "Support"
+description: "Frequently asked questions about Tallyo — the family chore and rewards app."
+permalink: /support/
+---
+
+<!-- PAGE HEADER -->
+<section class="page-header">
+  <div class="container">
+    <h1>Support</h1>
+    <p>Answers to common questions about Tallyo.</p>
+  </div>
+</section>
+
+<div class="container support-content">
+
+  <!-- FAQ -->
+  <div class="section-header">Frequently Asked Questions</div>
+
+  <ul class="faq-list">
+
+    <li class="faq-item">
+      <div class="faq-q">When is Tallyo launching?</div>
+      <div class="faq-a">We're putting the finishing touches on Tallyo. Tap "Notify Me" on the App Store and you'll be notified — and the app will download automatically — the day it launches.</div>
+    </li>
+
+    <li class="faq-item">
+      <div class="faq-q">How much does Tallyo cost?</div>
+      <div class="faq-a">Tallyo is free to download and free to use.</div>
+    </li>
+
+    <li class="faq-item">
+      <div class="faq-q">What devices does Tallyo support?</div>
+      <div class="faq-a">Tallyo works on iPhone and iPad running iOS 16 or later.</div>
+    </li>
+
+    <li class="faq-item">
+      <div class="faq-q">How do kids log in?</div>
+      <div class="faq-a">Kids don't need an email address. Parents create the family and share a Family Code. Kids enter the code, pick their avatar, and they're in — no account, no email, no password.</div>
+    </li>
+
+    <li class="faq-item">
+      <div class="faq-q">Is Tallyo safe for kids?</div>
+      <div class="faq-a">Yes. Tallyo collects minimal data for children — only a display name and avatar chosen by the parent. No ads, no behavioral tracking, no data sold to third parties. Tallyo is designed to be COPPA-compliant.</div>
+    </li>
+
+    <li class="faq-item">
+      <div class="faq-q">How do I contact support?</div>
+      <div class="faq-a">Email us at <a href="mailto:support@tallyo.net">support@tallyo.net</a>. We usually respond within 24 hours.</div>
+    </li>
+
+  </ul>
+
+  <!-- CONTACT -->
+  <div class="contact-block win-raised">
+    <div class="panel-header">Contact</div>
+    <div class="contact-body">
+      <p>Have a question not answered above? We'd love to hear from you.</p>
+      <p style="margin-top: 12px;"><a href="mailto:support@tallyo.net">support@tallyo.net</a></p>
+    </div>
+  </div>
+
+</div>
+
+<!-- FAQ Accordion JS -->
+<script>
+  document.querySelectorAll('.faq-q').forEach(function(q) {
+    q.addEventListener('click', function() {
+      var item = this.parentElement;
+      var isOpen = item.classList.contains('is-open');
+      document.querySelectorAll('.faq-item').forEach(function(el) {
+        el.classList.remove('is-open');
+      });
+      if (!isOpen) item.classList.add('is-open');
+    });
+  });
+</script>

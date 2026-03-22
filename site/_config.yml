@@ -1,0 +1,13 @@
+title: Tallyo
+description: "Chores & Rewards for Kids — Turn chores into quests. Kids earn coins, level up, and redeem rewards."
+url: "https://tallyo.net"
+baseurl: ""
+
+# Build
+markdown: kramdown
+
+# Exclude
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,16 @@
+# Dedicated public site repository: ignore everything by default.
+*
+
+# Allow repository metadata and deploy workflow.
+!/.gitignore
+!/README.md
+!/.github/
+!/.github/workflows/
+!/.github/workflows/deploy-pages.yml
+
+# Allow the published site source.
+!/site/
+!/site/**
+
+# Ignore generated Jekyll output.
+/site/_site/
