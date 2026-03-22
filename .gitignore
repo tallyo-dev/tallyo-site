@@ -7,6 +7,11 @@
 !/.github/
 !/.github/workflows/
 !/.github/workflows/deploy-pages.yml
+!/scripts/
+!/scripts/**
+!/IDEIAS/
+/IDEIAS/*
+!/IDEIAS/README.md
 
 # Allow the published site source.
 !/site/
@@ -14,3 +19,6 @@
 
 # Ignore generated Jekyll output.
 /site/_site/
+
+# Ignore macOS metadata inside published assets.
+**/.DS_Store
