@@ -561,6 +561,125 @@ img { display: block; max-width: 100%; height: auto; }
   font-size: 14px;
 }
 
+.eyebrow {
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 4px 10px;
+  background: rgba(10,123,114,0.1);
+  color: var(--teal);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.lede {
+  font-size: 18px;
+  line-height: 1.75;
+  color: var(--ink);
+}
+
+.article-callout,
+.article-cta,
+.faq-card {
+  background: var(--canvas);
+  border-top: 2px solid var(--white);
+  border-left: 2px solid var(--white);
+  border-bottom: 2px solid #888;
+  border-right: 2px solid #888;
+  padding: 22px;
+  margin: 24px 0;
+}
+
+.article-callout p:last-child,
+.article-cta p:last-child,
+.faq-card p:last-child {
+  margin-bottom: 0;
+}
+
+.article-steps {
+  counter-reset: article-steps;
+  list-style: none;
+  margin: 18px 0 20px;
+}
+
+.article-steps li {
+  position: relative;
+  margin: 0 0 16px;
+  padding: 0 0 0 44px;
+}
+
+.article-steps li::before {
+  counter-increment: article-steps;
+  content: counter(article-steps);
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--teal);
+  color: var(--white);
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.article-card {
+  background: var(--paper);
+  border-top: 2px solid var(--white);
+  border-left: 2px solid var(--white);
+  border-bottom: 2px solid #888;
+  border-right: 2px solid #888;
+  overflow: hidden;
+}
+
+.article-card-body {
+  padding: 18px;
+}
+
+.article-card h3 {
+  margin-top: 0;
+}
+
+.article-card ul {
+  margin-bottom: 0;
+}
+
+.coins-table td:first-child,
+.coins-table th:first-child {
+  width: 24%;
+}
+
+.faq-stack {
+  list-style: none;
+  margin: 18px 0 0;
+}
+
+.faq-stack li + li {
+  margin-top: 14px;
+}
+
+.cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.small-note {
+  font-size: 13px;
+  color: var(--muted);
+}
+
 /* ============================================================
    RESPONSIVE
    ============================================================ */
@@ -601,4 +720,7 @@ img { display: block; max-width: 100%; height: auto; }
 
   /* Legal */
   .content { padding: 20px; }
+
+  .article-grid { grid-template-columns: 1fr; }
+  .lede { font-size: 17px; }
 }
