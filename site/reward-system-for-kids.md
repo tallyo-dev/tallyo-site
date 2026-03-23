@@ -86,6 +86,8 @@ Great starter rewards:
 
 If you want cash, keep it weekly and predictable. See <a href="/allowance-for-chores/">allowance for chores</a>.
 
+Need an app? See <a href="/chore-app-for-kids/">chore app for kids</a>.
+
 ## Step 5: Put guardrails in place
 
 To keep rewards from taking over the household:

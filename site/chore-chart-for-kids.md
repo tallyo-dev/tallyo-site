@@ -144,6 +144,8 @@ Tips that make the system work:
 
 Good rewards feel meaningful without turning your whole house into a negotiation. If you want a full framework (chores -> coins -> rewards), see our <a href="/reward-system-for-kids/">reward system for kids</a>.
 
+Looking for a chore app? See <a href="/chore-app-for-kids/">chore app for kids</a>.
+
 - 15 minutes of earned screen time
 - Pick the family movie
 - Stay up 15 minutes later on Friday
