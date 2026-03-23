@@ -482,24 +482,25 @@ img { display: block; max-width: 100%; height: auto; }
   gap: 24px 40px;
   align-items: start;
 }
-.footer-guides {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
 .footer-guides-label {
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--muted);
-  margin-bottom: 2px;
+  margin-bottom: 6px;
 }
-.footer-guides a {
+.footer-guides-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-guides-list li { margin: 5px 0; }
+.footer-guides-list a {
   font-size: 13px;
   color: var(--muted);
 }
-.footer-guides a:hover { color: var(--teal); }
+.footer-guides-list a:hover { color: var(--teal); }
 .footer-brand .nav-logo {
   font-family: var(--font-serif);
   font-size: 18px;
