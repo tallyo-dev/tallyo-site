@@ -2,9 +2,14 @@ title: Tallyo
 description: "Chores & Rewards for Kids — Turn chores into quests. Kids earn coins, level up, and redeem rewards."
 url: "https://tallyo.net"
 baseurl: ""
+google_analytics_id: ""
+google_site_verification: ""
 
 # Build
 markdown: kramdown
+include:
+  - robots.txt
+  - sitemap.xml
 
 # Exclude
 exclude:

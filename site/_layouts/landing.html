@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{% if page.title %}{{ page.title }} | {% endif %}Tallyo — Chores &amp; Rewards for Kids</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+  {% if site.google_site_verification and site.google_site_verification != "" %}
+  <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
+  {% endif %}
 
   <!-- Open Graph -->
   <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}Tallyo" />
@@ -14,6 +17,25 @@
 
   <link rel="icon" href="/assets/icon.png" type="image/png" />
   <link rel="stylesheet" href="/assets/landing.css" />
+  {% if site.google_analytics_id and site.google_analytics_id != "" %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics_id }}');
+
+    document.addEventListener('click', function(event) {
+      var target = event.target.closest('[data-analytics-event]');
+      if (!target) return;
+
+      gtag('event', target.dataset.analyticsEvent, {
+        event_category: 'engagement',
+        event_label: target.getAttribute('href') || ''
+      });
+    });
+  </script>
+  {% endif %}
 </head>
 <body>
   {% include nav.html %}
