@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Chore Chart for Kids (6-12) That Actually Works"
-description: "A simple chore chart kids will follow. Turn chores into earned rewards while parents stay in control. Free pre-order on the App Store soon."
+title: "Chore Chart for Kids (6–12) That Actually Works"
+description: "A simple chore chart kids will follow. Turn chores into earned rewards while parents stay in control. Get notified for the App Store link."
 permalink: /chore-chart-for-kids/
 ---
 
