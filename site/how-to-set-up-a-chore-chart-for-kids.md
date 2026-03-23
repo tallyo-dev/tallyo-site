@@ -97,6 +97,8 @@ Use a simple scale:
 
 ## Step 5: Choose rewards (screen time works great)
 
+If you want a full menu of reward ideas and guardrails, see <a href="/reward-system-for-kids/">reward system for kids</a>.
+
 Rewards should be:
 
 - visible

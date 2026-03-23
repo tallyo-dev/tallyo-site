@@ -142,7 +142,7 @@ Tips that make the system work:
 
 ## Best rewards ideas (including earned screen time)
 
-Good rewards feel meaningful without turning your whole house into a negotiation.
+Good rewards feel meaningful without turning your whole house into a negotiation. If you want a full framework (chores -> coins -> rewards), see our <a href="/reward-system-for-kids/">reward system for kids</a>.
 
 - 15 minutes of earned screen time
 - Pick the family movie

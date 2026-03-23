@@ -122,6 +122,8 @@ These are starter lists. Pick what fits your home, your child’s maturity, and 
 
 ## The system that makes chores stick (3 rules)
 
+If you want a full rewards framework (chores -> coins -> rewards), see <a href="/reward-system-for-kids/">reward system for kids</a>.
+
 <ol class="article-steps">
   <li><strong>Keep the daily list short.</strong> 1–2 daily chores + 1 weekly chore is enough to start.</li>
   <li><strong>Chores count after approval.</strong> Approvals prevent loopholes and keep things fair.</li>

@@ -170,6 +170,8 @@ Parent approvals help because:
 
 ## Alternatives to screen time rewards (when you need variety)
 
+If you want a full rewards menu (screen time + non-cash + allowance), see <a href="/reward-system-for-kids/">reward system for kids</a>.
+
 Screen time is a strong reward, but you do not want it to be the only one.
 
 Good alternatives:
