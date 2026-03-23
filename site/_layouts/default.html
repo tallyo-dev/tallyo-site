@@ -5,10 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{% if page.title %}{{ page.title }} | {% endif %}Tallyo</title>
   <meta name="description" content="{{ page.description | default: site.description }}" />
+
+  <link rel="canonical" href="{{ page.url | absolute_url }}" />
+
   {% if site.google_site_verification and site.google_site_verification != "" %}
   <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
   {% endif %}
-  <link rel="icon" href="/assets/icon.png" type="image/png" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}Tallyo" />
+  <meta property="og:description" content="{{ page.description | default: site.description }}" />
+  <meta property="og:image" content="{{ '/assets/og-image.png' | absolute_url }}" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <meta property="og:type" content="article" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {% endif %}Tallyo" />
+  <meta name="twitter:description" content="{{ page.description | default: site.description }}" />
+  <meta name="twitter:image" content="{{ '/assets/og-image.png' | absolute_url }}" />
+
+  <link rel="icon" href="/assets/icon-192.png" type="image/png" />
   <link rel="stylesheet" href="/assets/landing.css" />
   {% if site.google_analytics_id and site.google_analytics_id != "" %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}"></script>
@@ -29,11 +46,80 @@
     });
   </script>
   {% endif %}
+
+  {% if page.url != '/blog/' %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://tallyo.net/" },
+      { "@type": "ListItem", "position": 2, "name": "Resources", "item": "https://tallyo.net/blog/" },
+      { "@type": "ListItem", "position": 3, "name": {{ page.title | jsonify }}, "item": "{{ page.url | absolute_url }}" }
+    ]
+  }
+  </script>
+  {% else %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://tallyo.net/" },
+      { "@type": "ListItem", "position": 2, "name": "Resources", "item": "https://tallyo.net/blog/" }
+    ]
+  }
+  </script>
+  {% endif %}
+
+  {% if page.date %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": {{ page.title | jsonify }},
+    "description": {{ page.description | jsonify }},
+    "url": "{{ page.url | absolute_url }}",
+    "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
+    "dateModified": "{{ page.last_modified_at | default: page.date | date: '%Y-%m-%d' }}",
+    "author": {
+      "@type": "Organization",
+      "name": "Tallyo",
+      "url": "https://tallyo.net"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tallyo",
+      "url": "https://tallyo.net",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ '/assets/icon-192.png' | absolute_url }}"
+      }
+    },
+    "image": "{{ '/assets/og-image.png' | absolute_url }}"
+  }
+  </script>
+  {% endif %}
 </head>
 <body>
   {% include nav.html %}
 
   <main class="container content">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <span aria-hidden="true"> › </span>
+      {% if page.url == '/blog/' %}
+        <span>Resources</span>
+      {% else %}
+        <a href="/blog/">Resources</a>
+        <span aria-hidden="true"> › </span>
+        <span>{{ page.title }}</span>
+      {% endif %}
+    </nav>
+
+    {% if page.date %}
+    <p class="article-meta">Published {{ page.date | date: "%B %Y" }}</p>
+    {% endif %}
     {{ content }}
   </main>
 

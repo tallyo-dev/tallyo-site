@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up a Chore Chart for Kids (6–12) in 10 Minutes"
 description: "How to set up a chore chart for kids ages 6–12: pick 3–5 chores, set simple points, use parent approvals, and add earned rewards like screen time."
 permalink: /how-to-set-up-a-chore-chart-for-kids/
+date: 2026-03-19
 ---
 
 <span class="eyebrow">Chore Chart Setup</span>
@@ -140,7 +141,6 @@ Tallyo is designed for families who want a simple system: kids complete chores, 
   <div class="cta-actions">
     <a class="btn-cta btn-cta--lg" href="/#notify" data-analytics-event="cta_app_store_notify">Notify me on the App Store</a>
   </div>
-  <p class="small-note">When the App Store listing is live, this CTA can switch from the site notify section to the direct App Store link.</p>
 </div>
 
 ## FAQ

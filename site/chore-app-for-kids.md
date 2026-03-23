@@ -3,6 +3,7 @@ layout: default
 title: "Chore App for Kids (6–12): A Simple System That Actually Works"
 description: "A chore app for kids ages 6–12 should reduce nagging: clear chores, parent approvals, and earned rewards like screen time. Here’s a simple setup that sticks."
 permalink: /chore-app-for-kids/
+date: 2026-03-21
 ---
 
 <span class="eyebrow">Chore App</span>
@@ -86,7 +87,6 @@ Tallyo is built for exactly this use case: kids complete chores, earn coins, lev
   <div class="cta-actions">
     <a class="btn-cta btn-cta--lg" href="/#notify" data-analytics-event="cta_app_store_notify">Notify me on the App Store</a>
   </div>
-  <p class="small-note">When the App Store listing is live, this CTA can switch from the site notify section to the direct App Store link.</p>
 </div>
 
 ## FAQ

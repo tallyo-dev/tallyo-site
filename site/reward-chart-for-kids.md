@@ -3,6 +3,7 @@ layout: default
 title: "Reward Chart for Kids (6–12): A Simple System That Actually Works"
 description: "A reward chart for kids ages 6–12 that reduces nagging: chores + parent approvals + coins redeemed for rewards like earned screen time or allowance."
 permalink: /reward-chart-for-kids/
+date: 2026-03-22
 ---
 
 <span class="eyebrow">Reward Chart</span>
@@ -116,7 +117,6 @@ After a week, add one new chore or adjust coin values.
   <div class="cta-actions">
     <a class="btn-cta btn-cta--lg" href="/#notify" data-analytics-event="cta_app_store_notify">Notify me on the App Store</a>
   </div>
-  <p class="small-note">When the App Store listing is live, this CTA can switch from the site notify section to the direct App Store link.</p>
 </div>
 
 ## FAQ

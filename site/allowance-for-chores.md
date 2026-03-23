@@ -3,6 +3,7 @@ layout: default
 title: "Allowance for Chores: A Simple System That Avoids Daily Negotiation"
 description: "A practical allowance-for-chores system for ages 6–12. Use points or coins, parent approvals, and clear rules so kids earn rewards without constant bargaining."
 permalink: /allowance-for-chores/
+date: 2026-03-13
 ---
 
 <span class="eyebrow">Allowance</span>
@@ -194,7 +195,6 @@ Tallyo is built for exactly this: chores become quests, kids earn coins, and par
   <div class="cta-actions">
     <a class="btn-cta btn-cta--lg" href="/#notify" data-analytics-event="cta_app_store_notify">Notify me on the App Store</a>
   </div>
-  <p class="small-note">When the App Store listing is live, this CTA can switch from the site notify section to the direct App Store link.</p>
 </div>
 
 ## FAQ

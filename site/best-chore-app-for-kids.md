@@ -3,6 +3,7 @@ layout: default
 title: "Best Chore App for Kids (6–12): What to Look For (and a Simple Setup)"
 description: "Looking for the best chore app for kids? Use this checklist: short daily routine, parent approvals, and earned rewards like screen time."
 permalink: /best-chore-app-for-kids/
+date: 2026-03-22
 ---
 
 <span class="eyebrow">Best Chore App</span>
@@ -79,7 +80,6 @@ If you want a chore app that feels like progress instead of nagging, Tallyo is b
   <div class="cta-actions">
     <a class="btn-cta btn-cta--lg" href="/#notify" data-analytics-event="cta_app_store_notify">Notify me on the App Store</a>
   </div>
-  <p class="small-note">When the App Store listing is live, this CTA can switch from the site notify section to the direct App Store link.</p>
 </div>
 
 ## FAQ

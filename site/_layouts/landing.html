@@ -3,19 +3,36 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{% if page.title %}{{ page.title }} | {% endif %}Tallyo — Chores &amp; Rewards for Kids</title>
+
+  {% assign defaultTitle = 'Tallyo — Chores & Rewards for Kids' %}
+  {% if page.title and page.title != '' and page.title != defaultTitle %}
+    <title>{{ page.title }} | {{ defaultTitle }}</title>
+  {% else %}
+    <title>{{ defaultTitle }}</title>
+  {% endif %}
+
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+
+  <link rel="canonical" href="{{ page.url | absolute_url }}" />
+
   {% if site.google_site_verification and site.google_site_verification != "" %}
   <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
   {% endif %}
 
   <!-- Open Graph -->
-  <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}Tallyo" />
+  <meta property="og:title" content="{% if page.title and page.title != '' %}{{ page.title }} | {% endif %}Tallyo" />
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-  <meta property="og:image" content="https://tallyo.net/assets/icon.png" />
+  <meta property="og:image" content="{{ '/assets/og-image.png' | absolute_url }}" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
   <meta property="og:type" content="website" />
 
-  <link rel="icon" href="/assets/icon.png" type="image/png" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{% if page.title and page.title != '' %}{{ page.title }} | {% endif %}Tallyo" />
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+  <meta name="twitter:image" content="{{ '/assets/og-image.png' | absolute_url }}" />
+
+  <link rel="icon" href="/assets/icon-192.png" type="image/png" />
   <link rel="stylesheet" href="/assets/landing.css" />
   {% if site.google_analytics_id and site.google_analytics_id != "" %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}"></script>
@@ -34,6 +51,42 @@
         event_label: target.getAttribute('href') || ''
       });
     });
+  </script>
+  {% endif %}
+
+  {% if page.url == '/' %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Tallyo",
+    "url": "https://tallyo.net",
+    "logo": "{{ '/assets/icon-192.png' | absolute_url }}",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "support@tallyo.net",
+      "contactType": "customer support"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Tallyo",
+    "operatingSystem": "iOS",
+    "applicationCategory": "LifestyleApplication",
+    "description": "Chores and Rewards for Kids — Turn chores into quests. Kids earn coins, level up, and redeem rewards.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "NORTHWIND TECHNOLOGIES LLC"
+    }
+  }
   </script>
   {% endif %}
 </head>

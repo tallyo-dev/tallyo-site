@@ -3,6 +3,7 @@ layout: default
 title: "Reward System for Kids: A Simple Plan That Actually Works (6–12)"
 description: "A reward system for kids ages 6–12 that reduces nagging: chores + parent approvals + points (coins) redeemed for rewards like earned screen time or allowance."
 permalink: /reward-system-for-kids/
+date: 2026-03-18
 ---
 
 <span class="eyebrow">Rewards</span>
@@ -108,7 +109,6 @@ Printable charts can work, but apps usually win when you need approvals, point t
   <div class="cta-actions">
     <a class="btn-cta btn-cta--lg" href="/#notify" data-analytics-event="cta_app_store_notify">Notify me on the App Store</a>
   </div>
-  <p class="small-note">When the App Store listing is live, this CTA can switch from the site notify section to the direct App Store link.</p>
 </div>
 
 ## FAQ

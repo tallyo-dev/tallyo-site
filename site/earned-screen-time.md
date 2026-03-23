@@ -3,6 +3,7 @@ layout: default
 title: "Earned Screen Time: A Simple Reward System for Kids"
 description: "Turn screen time into something kids earn with chores. A simple system for ages 6–12 that reduces nagging and keeps parents in control."
 permalink: /earned-screen-time/
+date: 2026-03-14
 ---
 
 <span class="eyebrow">Screen Time</span>
@@ -196,7 +197,6 @@ Tallyo is designed for families who want a clear system: kids complete chores, e
   <div class="cta-actions">
     <a class="btn-cta btn-cta--lg" href="/#notify" data-analytics-event="cta_app_store_notify">Notify me on the App Store</a>
   </div>
-  <p class="small-note">When the App Store listing is live, this CTA can switch from the site notify section to the direct App Store link.</p>
 </div>
 
 ## FAQ

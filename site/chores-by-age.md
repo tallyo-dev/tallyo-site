@@ -3,6 +3,7 @@ layout: default
 title: "Chores by Age (6–12): A Practical List Parents Can Actually Use"
 description: "Chores by age for kids 6–12, plus a simple system to make it stick: small daily chores, parent approvals, and earned rewards (like screen time)."
 permalink: /chores-by-age/
+date: 2026-03-11
 ---
 
 <span class="eyebrow">Chores by Age</span>
@@ -160,7 +161,6 @@ Tallyo is built for this exact problem: kids complete chores, parents approve th
   <div class="cta-actions">
     <a class="btn-cta btn-cta--lg" href="/#notify" data-analytics-event="cta_app_store_notify">Notify me on the App Store</a>
   </div>
-  <p class="small-note">When the App Store listing is live, this CTA can switch from the site notify section to the direct App Store link.</p>
 </div>
 
 ## FAQ

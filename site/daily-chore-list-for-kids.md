@@ -3,6 +3,7 @@ layout: default
 title: "Daily Chore List for Kids (6–12): A Simple Routine That Actually Sticks"
 description: "A daily chore list for kids ages 6–12 that reduces nagging: 10 minutes a day, clear expectations, parent approvals, and earned rewards like screen time."
 permalink: /daily-chore-list-for-kids/
+date: 2026-03-12
 ---
 
 <span class="eyebrow">Daily Routine</span>
@@ -149,7 +150,6 @@ Tallyo is built for this exact problem: kids complete chores, parents approve th
   <div class="cta-actions">
     <a class="btn-cta btn-cta--lg" href="/#notify" data-analytics-event="cta_app_store_notify">Notify me on the App Store</a>
   </div>
-  <p class="small-note">When the App Store listing is live, this CTA can switch from the site notify section to the direct App Store link.</p>
 </div>
 
 ## FAQ

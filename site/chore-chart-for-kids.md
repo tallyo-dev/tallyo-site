@@ -3,6 +3,7 @@ layout: default
 title: "Chore Chart for Kids (6–12) That Actually Works"
 description: "A simple chore chart kids will follow. Turn chores into earned rewards while parents stay in control. Get notified for the App Store link."
 permalink: /chore-chart-for-kids/
+date: 2026-03-10
 ---
 
 <span class="eyebrow">Chore Charts</span>
@@ -212,7 +213,6 @@ Tallyo is built for exactly this use case: a chore chart for kids that feels fun
   <div class="cta-actions">
     <a class="btn-cta btn-cta--lg" href="/#notify" data-analytics-event="cta_app_store_notify">Notify me on the App Store</a>
   </div>
-  <p class="small-note">When the App Store listing is live, this CTA can switch from the site waitlist section to the direct App Store link.</p>
 </div>
 
 ## FAQ
