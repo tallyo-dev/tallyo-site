@@ -56,6 +56,8 @@ Earned screen time works better because it creates a predictable routine. Kids k
   <li><strong>Daily caps protect your family rules.</strong> Kids can earn screen time, but within limits you set (school nights vs weekends, etc.).</li>
 </ol>
 
+If you're starting from scratch, start with a simple [chore chart for kids](/chore-chart-for-kids/) and use earned screen time as the first reward.
+
 ## How to price screen time (coins → minutes)
 
 Use a simple conversion that kids learn fast. Here is a starting point that works well for ages 6–12:

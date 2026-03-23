@@ -155,7 +155,7 @@ Good rewards feel meaningful without turning your whole house into a negotiation
 
 <div class="article-callout">
   <div class="panel-header">Reward Rule</div>
-  <p>Screen time works best when it is earned in small blocks with clear limits. For example: 4 coins equals 20 minutes, capped per day. That keeps the reward motivating without handing over control.</p>
+  <p><a href="/earned-screen-time/">Earned screen time</a> works best when it is earned in small blocks with clear limits. For example: 4 coins equals 20 minutes, capped per day. That keeps the reward motivating without handing over control.</p>
 </div>
 
 ## How to keep parent control (approvals + rules)
