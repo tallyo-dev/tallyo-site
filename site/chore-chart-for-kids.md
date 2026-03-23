@@ -198,6 +198,8 @@ Both can work. The better choice depends on what usually breaks down in your hom
 
 If your child loses interest quickly, the app-based version usually wins because it adds momentum. If your biggest issue is just getting started, a printable chart can still be a good first step.
 
+If you’re deciding whether to tie chores to money, see our guide on <a href="/allowance-for-chores/">allowance for chores</a>.
+
 ## Try Tallyo (free pre-order)
 
 Tallyo is built for exactly this use case: a chore chart for kids that feels fun for children and manageable for parents. Kids complete chores, earn coins, level up, and redeem rewards. Parents approve everything and control the rules.

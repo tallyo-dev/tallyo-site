@@ -94,6 +94,8 @@ Use a simple conversion that kids learn fast. Here is a starting point that work
   </tbody>
 </table>
 
+If your family prefers cash rewards, you can also use an <a href="/allowance-for-chores/">allowance for chores</a> system alongside earned screen time.
+
 Tips to keep it from turning into constant negotiation:
 
 - Set a <strong>daily cap</strong> (example: max 40 minutes on school days).
