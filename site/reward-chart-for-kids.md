@@ -21,7 +21,7 @@ date: 2026-03-22
   <div class="panel-header">Want the app version?</div>
   <p>Tallyo turns chores into coins, rewards, streaks, and parent approvals — like a reward chart that kids actually come back to.</p>
   <div class="cta-actions">
-    <a class="btn-cta btn-cta--sm" href="/#notify" data-analytics-event="cta_app_store_notify">Get notified for the App Store</a>
+    <a class="btn-cta btn-cta--sm" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Get notified for the App Store</a>
   </div>
 </div>
 
@@ -115,7 +115,7 @@ After a week, add one new chore or adjust coin values.
   <div class="panel-header">Tallyo</div>
   <p>Want a reward chart that actually gets used? Use chores, coins, rewards, and parent approvals — without constant reminders.</p>
   <div class="cta-actions">
-    <a class="btn-cta btn-cta--lg" href="/#notify" data-analytics-event="cta_app_store_notify">Notify me on the App Store</a>
+    <a class="btn-cta btn-cta--lg" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Notify me on the App Store</a>
   </div>
 </div>
 

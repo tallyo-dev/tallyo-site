@@ -21,7 +21,7 @@ date: 2026-03-18
   <div class="panel-header">Want the app version?</div>
   <p>Tallyo turns a <a href="/chore-chart-for-kids/">chore chart</a> into coins, rewards, streaks, and parent approvals — so kids see progress and parents stay in control.</p>
   <div class="cta-actions">
-    <a class="btn-cta btn-cta--sm" href="/#notify" data-analytics-event="cta_app_store_notify">Get notified for the App Store</a>
+    <a class="btn-cta btn-cta--sm" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Get notified for the App Store</a>
   </div>
 </div>
 
@@ -107,7 +107,7 @@ Printable charts can work, but apps usually win when you need approvals, point t
   <div class="panel-header">Tallyo</div>
   <p>Want a reward system that runs itself? Use chores, coins, rewards, and parent approvals — without constant reminders.</p>
   <div class="cta-actions">
-    <a class="btn-cta btn-cta--lg" href="/#notify" data-analytics-event="cta_app_store_notify">Notify me on the App Store</a>
+    <a class="btn-cta btn-cta--lg" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Notify me on the App Store</a>
   </div>
 </div>
 

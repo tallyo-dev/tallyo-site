@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  {% assign defaultTitle = 'Tallyo — Chores & Rewards for Kids' %}
+  {% assign defaultTitle = '{{ site.title }}: {{ site.subtitle }}' %}
   {% if page.title and page.title != '' and page.title != defaultTitle %}
     <title>{{ page.title }} | {{ defaultTitle }}</title>
   {% else %}
@@ -32,7 +32,7 @@
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
   <meta name="twitter:image" content="{{ '/assets/og-image.png' | absolute_url }}" />
 
-  <link rel="icon" href="/assets/icon-192.png" type="image/png" />
+  <link rel="icon" href="/assets/icon-192-solid-bg.png" type="image/png" />
   <link rel="stylesheet" href="/assets/landing.css" />
   {% if site.google_analytics_id and site.google_analytics_id != "" %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}"></script>

@@ -23,7 +23,7 @@ If you’re building your system from scratch, start with a simple <a href="/cho
   <div class="panel-header">Want the app version?</div>
   <p>Tallyo turns chores into coins and coins into rewards — with parent approvals so the rules stay consistent.</p>
   <div class="cta-actions">
-    <a class="btn-cta btn-cta--sm" href="/#notify" data-analytics-event="cta_app_store_notify">Get notified for the App Store</a>
+    <a class="btn-cta btn-cta--sm" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Get notified for the App Store</a>
   </div>
 </div>
 
@@ -193,7 +193,7 @@ Tallyo is built for exactly this: chores become quests, kids earn coins, and par
   <div class="panel-header">Tallyo</div>
   <p>Want a simple system your kids actually follow? Use coins, rewards, and parent approvals — without daily negotiation.</p>
   <div class="cta-actions">
-    <a class="btn-cta btn-cta--lg" href="/#notify" data-analytics-event="cta_app_store_notify">Notify me on the App Store</a>
+    <a class="btn-cta btn-cta--lg" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Notify me on the App Store</a>
   </div>
 </div>
 
