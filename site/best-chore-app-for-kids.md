@@ -21,7 +21,7 @@ date: 2026-03-22
   <div class="panel-header">Want the app version?</div>
   <p>Tallyo turns chores into quests with coins, rewards, streaks, and parent approvals — so kids see progress and parents stay in control.</p>
   <div class="cta-actions">
-    <a class="btn-cta btn-cta--sm" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Get notified for the App Store</a>
+    <a class="btn-cta btn-cta--sm" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Pre-order on the App Store</a>
   </div>
 </div>
 
@@ -70,7 +70,7 @@ Screen time is popular because it’s immediate, but it needs a cap.
 
 If you prefer cash, keep it weekly and predictable: <a href="/allowance-for-chores/">allowance for chores</a>.
 
-## Try Tallyo (get notified for the App Store link)
+## Try Tallyo on the App Store
 
 If you want a chore app that feels like progress instead of nagging, Tallyo is built for that: kids complete chores, earn coins, level up, and redeem rewards — while parents approve everything and control the rules.
 
@@ -78,7 +78,7 @@ If you want a chore app that feels like progress instead of nagging, Tallyo is b
   <div class="panel-header">Tallyo</div>
   <p>Want a chore app your kids actually stick with? Use a short routine + approvals + earned rewards.</p>
   <div class="cta-actions">
-    <a class="btn-cta btn-cta--lg" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Notify me on the App Store</a>
+    <a class="btn-cta btn-cta--lg" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Pre-order on the App Store</a>
   </div>
 </div>
 

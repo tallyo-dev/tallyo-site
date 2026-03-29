@@ -21,7 +21,7 @@ date: 2026-03-14
   <div class="panel-header">Want the “no nagging” version?</div>
   <p>Tallyo turns chores into coins and coins into rewards like earned screen time — with parent approvals so the rules stay consistent.</p>
   <div class="cta-actions">
-    <a class="btn-cta btn-cta--sm" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Get notified for the App Store</a>
+    <a class="btn-cta btn-cta--sm" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Pre-order on the App Store</a>
   </div>
 </div>
 
@@ -187,7 +187,7 @@ Good alternatives:
 
 A mix of rewards keeps motivation high without increasing screen time endlessly.
 
-## Try Tallyo (get notified for the App Store link)
+## Try Tallyo on the App Store
 
 Tallyo is designed for families who want a clear system: kids complete chores, earn coins, level up, and redeem rewards like earned screen time. Parents approve everything and control the rules.
 
@@ -195,7 +195,7 @@ Tallyo is designed for families who want a clear system: kids complete chores, e
   <div class="panel-header">Tallyo</div>
   <p>Want fewer screen time arguments this week? Turn chores into earned rewards with parent approvals and a simple coin system.</p>
   <div class="cta-actions">
-    <a class="btn-cta btn-cta--lg" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Notify me on the App Store</a>
+    <a class="btn-cta btn-cta--lg" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Pre-order on the App Store</a>
   </div>
 </div>
 

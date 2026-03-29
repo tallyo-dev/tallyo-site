@@ -21,7 +21,7 @@ date: 2026-03-12
   <div class="panel-header">Want the app version?</div>
   <p>Tallyo turns a <a href="/chore-chart-for-kids/">chore chart</a> into coins, rewards, streaks, and parent approvals — so kids see progress and parents stay in control.</p>
   <div class="cta-actions">
-    <a class="btn-cta btn-cta--sm" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Get notified for the App Store</a>
+    <a class="btn-cta btn-cta--sm" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Pre-order on the App Store</a>
   </div>
 </div>
 
@@ -140,7 +140,7 @@ A common approach:
 
 If you want cash allowance involved, keep it predictable and weekly. See <a href="/allowance-for-chores/">allowance for chores</a>.
 
-## Try Tallyo (get notified for the App Store link)
+## Try Tallyo on the App Store
 
 Tallyo is built for this exact problem: kids complete chores, parents approve them, and kids earn coins they can redeem for rewards. It’s like a daily chore list that feels like progress.
 
@@ -148,7 +148,7 @@ Tallyo is built for this exact problem: kids complete chores, parents approve th
   <div class="panel-header">Tallyo</div>
   <p>Want a daily routine your kids actually follow? Use chores, coins, rewards, and parent approvals — without constant reminders.</p>
   <div class="cta-actions">
-    <a class="btn-cta btn-cta--lg" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Notify me on the App Store</a>
+    <a class="btn-cta btn-cta--lg" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Pre-order on the App Store</a>
   </div>
 </div>
 

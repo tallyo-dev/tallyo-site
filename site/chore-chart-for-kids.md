@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Chore Chart for Kids (6–12) That Actually Works"
-description: "A simple chore chart kids will follow. Turn chores into earned rewards while parents stay in control. Get notified for the App Store link."
+description: "A simple chore chart kids will follow. Turn chores into earned rewards while parents stay in control. Pre-order Tallyo on the App Store."
 permalink: /chore-chart-for-kids/
 date: 2026-03-10
 ---
@@ -43,7 +43,7 @@ The fix is to make the chart feel more like progress than punishment. Kids shoul
   <div class="panel-header">Try The App Version</div>
   <p>If you want a chore chart that feels more like a game than a worksheet, Tallyo turns chores into quests with coins, rewards, streaks, and parent approvals.</p>
   <div class="cta-actions">
-    <a class="btn-cta btn-cta--sm" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Get notified for the App Store</a>
+    <a class="btn-cta btn-cta--sm" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Pre-order on the App Store</a>
   </div>
 </div>
 
@@ -211,7 +211,7 @@ Tallyo is built for exactly this use case: a chore chart for kids that feels fun
   <div class="panel-header">Tallyo</div>
   <p>Want a chore chart kids actually come back to? Tallyo turns chores into quests with rewards, approvals, and progress kids can see.</p>
   <div class="cta-actions">
-    <a class="btn-cta btn-cta--lg" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Notify me on the App Store</a>
+    <a class="btn-cta btn-cta--lg" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Pre-order on the App Store</a>
   </div>
 </div>
 

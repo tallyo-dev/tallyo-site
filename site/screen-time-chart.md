@@ -21,7 +21,7 @@ date: 2026-03-20
   <div class="panel-header">Want the app version?</div>
   <p>Tallyo turns chores into coins and coins into screen time rewards — with parent approvals so the rules stay consistent day to day.</p>
   <div class="cta-actions">
-    <a class="btn-cta btn-cta--sm" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Get notified for the App Store</a>
+    <a class="btn-cta btn-cta--sm" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Pre-order on the App Store</a>
   </div>
 </div>
 
@@ -134,13 +134,13 @@ This is different from "taking away" screen time as punishment. The chart is neu
 
 If your child is skipping chores consistently, use the <a href="/how-to-make-kids-do-chores/">how to make kids do chores</a> guide to troubleshoot the system.
 
-## Try Tallyo (get notified for the App Store link)
+## Try Tallyo on the App Store
 
 <div class="article-cta">
   <div class="panel-header">Tallyo</div>
   <p>Want a screen time chart that runs itself? Chores → coins → screen time, with parent approvals and daily caps built in.</p>
   <div class="cta-actions">
-    <a class="btn-cta btn-cta--lg" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Notify me on the App Store</a>
+    <a class="btn-cta btn-cta--lg" href="https://apps.apple.com/us/app/tallyo-kids-chore-app/id6760268306" data-analytics-event="cta_app_store_notify">Pre-order on the App Store</a>
   </div>
 </div>
 
