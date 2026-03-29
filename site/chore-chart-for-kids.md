@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Chore Chart for Kids (6–12) That Actually Works"
-description: "A simple chore chart kids will follow. Turn chores into earned rewards while parents stay in control. Pre-order Tallyo on the App Store."
+description: "A simple chore chart kids will follow. Turn chores into earned rewards while parents stay in control. Pre-order Tallyo now before its April 13, 2026 launch."
 permalink: /chore-chart-for-kids/
 date: 2026-03-10
 ---
@@ -203,7 +203,7 @@ If your child loses interest quickly, the app-based version usually wins because
 
 If you’re deciding whether to tie chores to money, see our guide on <a href="/allowance-for-chores/">allowance for chores</a>.
 
-## Try Tallyo (free pre-order)
+## Try Tallyo on the App Store
 
 Tallyo is built for exactly this use case: a chore chart for kids that feels fun for children and manageable for parents. Kids complete chores, earn coins, level up, and redeem rewards. Parents approve everything and control the rules.
 
