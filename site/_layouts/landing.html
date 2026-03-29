@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   {% assign defaultTitle = site.title | append: ": " | append: site.subtitle %}
+  {% assign socialTitle = defaultTitle %}
+  {% if page.title and page.title != '' %}
+    {% if page.title == defaultTitle %}
+      {% assign socialTitle = defaultTitle %}
+    {% else %}
+      {% assign socialTitle = page.title | append: " | " | append: site.title %}
+    {% endif %}
+  {% endif %}
   {% if page.title and page.title != '' and page.title != defaultTitle %}
     <title>{{ page.title }} | {{ defaultTitle }}</title>
   {% else %}
@@ -20,7 +28,7 @@
   {% endif %}
 
   <!-- Open Graph -->
-  <meta property="og:title" content="{% if page.title and page.title != '' %}{{ page.title }} | {% endif %}Tallyo" />
+  <meta property="og:title" content="{{ socialTitle }}" />
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
   <meta property="og:image" content="{{ '/assets/og-image.png' | absolute_url }}" />
   <meta property="og:url" content="{{ page.url | absolute_url }}" />
@@ -28,7 +36,7 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="{% if page.title and page.title != '' %}{{ page.title }} | {% endif %}Tallyo" />
+  <meta name="twitter:title" content="{{ socialTitle }}" />
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
   <meta name="twitter:image" content="{{ '/assets/og-image.png' | absolute_url }}" />
 
